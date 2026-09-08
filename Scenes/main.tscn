@@ -112,8 +112,8 @@ text = "No music being produced currently."
 
 [node name="EventLog" type="Label" parent="." unique_id=32062268]
 layout_mode = 0
-offset_left = 565.0
-offset_top = 22.0
-offset_right = 656.0
-offset_bottom = 45.0
+offset_left = 574.0
+offset_top = 45.0
+offset_right = 665.0
+offset_bottom = 68.0
 text = "EVENT LOG:"
