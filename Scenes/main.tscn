@@ -42,9 +42,10 @@ text = "REPUTATION: "
 
 [node name="ArtistPanel" type="Panel" parent="." unique_id=1237182718]
 layout_mode = 0
+offset_left = -2.0
 offset_top = 103.0
-offset_right = 1152.0
-offset_bottom = 407.0
+offset_right = 1154.0
+offset_bottom = 409.0
 
 [node name="ArtistName" type="Label" parent="ArtistPanel" unique_id=509209535]
 layout_mode = 0
@@ -72,18 +73,26 @@ text = "SIGN AN ARTIST"
 
 [node name="ReleasePanel" type="Panel" parent="." unique_id=522791354]
 layout_mode = 0
-offset_left = 4.0
+offset_left = -1.0
 offset_top = 407.0
 offset_right = 1156.0
-offset_bottom = 646.0
+offset_bottom = 652.0
 
 [node name="ReleaseButton" type="Button" parent="ReleasePanel" unique_id=2062480407]
 layout_mode = 0
-offset_left = 436.0
-offset_top = 118.0
-offset_right = 678.0
-offset_bottom = 176.0
-text = "Release song"
+offset_left = 757.0
+offset_top = 121.0
+offset_right = 999.0
+offset_bottom = 179.0
+text = "RELEASE SONG"
+
+[node name="CreateSongButton" type="Button" parent="ReleasePanel" unique_id=1979079130]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 121.0
+offset_right = 442.0
+offset_bottom = 179.0
+text = "CREATE SONG"
 
 [node name="SongName" type="Label" parent="ReleasePanel" unique_id=1852085035]
 layout_mode = 0
