@@ -7,7 +7,7 @@ var release_ready = null
 @onready var money_label = $TopBar/MoneyLabel
 @onready var income_label = $TopBar/IncomeLabel
 @onready var reputation_label = $TopBar/ReputationLabel
-
+# Esto conecta los botones, por ahora funciona pero se puede hacer de una forma mas limpia.
 func _ready() -> void:
 	$ArtistPanel/HireButton.pressed.connect(hire_artist)
 	$ReleasePanel/ReleaseButton.pressed.connect(create_release)
@@ -23,6 +23,8 @@ func _process(delta: float) -> void:
 
 
 func hire_artist():
+	
+	# TODO: Agregar randomizador de artistas predeterminados
 	var artist = {
 		"name": "Maya",
 		"creativity": 60,
@@ -78,7 +80,7 @@ func create_song():
 	)
 	
 	var income = quality * current_artist.charisma * 0.001
-	
+	# TODO: Agregar randomizador de artistas predeterminados
 	current_release = {
 		"name": "First Light",
 		"quality": quality,
